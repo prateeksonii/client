@@ -3,8 +3,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        body: ["Human Sans", "sans-serif"],
-        head: ["Gilroy", "sans-serif"],
+        head: ["CocoSharpL", "sans-serif"],
+        body: ["Inter", "sans-serif"],
+      },
+      colors: {
+        primary: "#5B76FF",
+        "primary-dark": "#455ACA",
       },
     },
   },
